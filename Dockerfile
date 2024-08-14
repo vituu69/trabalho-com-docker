@@ -14,3 +14,4 @@ RUN pip install -r requiriments.txt
 COPY . .
 
 CMD ["python", "-m", "flask", "run", "--host=0.0.0.0"]
+
