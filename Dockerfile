@@ -9,7 +9,7 @@ ENV FLASK_APP run.py
 
 #pedindo para o docker copiar e instalar dentro do container 
 COPY requirements.txt requirements.txt
-RUN pip install -r requiriments.txt
+RUN pip install -r requirements.txt
 
 COPY . .
 
